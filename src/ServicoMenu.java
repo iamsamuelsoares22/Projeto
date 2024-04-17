@@ -247,7 +247,7 @@ public class ServicoMenu {
                     break; 
             
                 case 2: // Lista de compras
-                    JOptionPane.showMessageDialog(null, "Lista de compras: \n" + servicoVenda.visualizarCompra());
+                    JOptionPane.showMessageDialog(null, "Lista de compras: \n" + servicoVenda.visualizarCompra() + "Valor total: R$ " + valorTotal + "\n \nAgradecemos pela compra, retorne sempre!");
                     break;
                 
                 case 3: // Finalizar compra
